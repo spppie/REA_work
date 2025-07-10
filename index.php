@@ -6,6 +6,13 @@
         <title>Document</title>
     </head>
     <body>
-        <a href="./HTML/eindopdracht/index.html">eindopracht html</a>
+        <ul>
+            <li><a href="./HTML/eindopdracht/index.html">HTML eindopracht</a></li>
+            <li><a href="./CSS/eindopracht/index.html">CSS eindopdracht</a></li>
+            <li><a href="./SEO/errordocument opdracht 2/index.html">SEO error document</a></li>
+            <li><a href="./SEO/richresult opdracht 4/index.html">SEO rich results</a></li>
+            <li><a href="./JS/JSon opdracht 4/index.html">JSon</a></li>
+            <li><a href="./PHP/sessie opdracht 4/index.php">PHP sessies</a></li>
+        </ul>
     </body>
 </html>
