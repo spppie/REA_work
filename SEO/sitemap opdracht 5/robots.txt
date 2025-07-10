@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /admin/
+
+Sitemap:https://www.sushigrillgeleen.nl/sitemap.xml

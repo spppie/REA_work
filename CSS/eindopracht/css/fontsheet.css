@@ -1,0 +1,93 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 85;
+}
+
+/* Open Sans */
+/* <weight>: Use a value from 300 to 800 */
+/* <width>: Use a value from 75 to 100 */
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 85;
+}
+
+/* Cormorant Garamond */
+/*<weight>: Use a value from 300 to 700 */
+/* font */
+.font-corm-gara {
+    font-family: 'Cormorant Garamond', serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/* font style */
+.font-normal {
+    font-style: normal;
+}
+.font-italic {
+    font-style: italic;
+}
+
+/* font weights */
+/* light */
+.font-light {
+    font-weight: 300;
+}
+/* regular */
+.font-regular {
+    font-weight: 400;
+}
+/* medium */
+.font-medium {
+    font-weight: 500;
+}
+/* semi-bold */
+.font-semibold {
+    font-weight: 600;
+}
+/* bold */
+.font-bold {
+    font-weight: 700;
+}
+.font-extra-bold {
+    font-weight: 800;
+}
+
+/* font-size */
+.font-15px {
+    font-size: 15px;
+}
+.font-20px {
+    font-size: 20px;
+}
+.font-25px {
+    font-size: 25px;
+}
+.font-40px {
+    font-size: 40px;
+}
+.font-50px {
+    font-size: 50px;
+}
+.font-60px {
+    font-size: 60px;
+}
+.font-80px {
+    font-size: 80px;
+}
+.font-100px {
+    font-size: 100px;
+}
+
+.graytext {
+    color: darkgray;
+}

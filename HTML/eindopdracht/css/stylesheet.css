@@ -1,0 +1,21 @@
+html, body {
+	font-size: 16px;
+	font-family: Calibri, Arial, sans-serif;
+}
+table {
+	margin-bottom: 40px;
+	min-width: 600px;
+}
+table, th, td {
+	border: 1px solid rgb(20,20,20);
+	border-collapse: collapse;
+}
+th, td {
+	padding: 4px 8px;
+}
+th {
+	background-color: rgb(240,240,240);
+}
+td:nth-child(1) {
+	font-family: "Courier New", monospace;
+}

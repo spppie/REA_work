@@ -1,0 +1,46 @@
+h1, #contact-main {
+    margin-left: 20vw;
+}
+#contact-main {
+    width: 60vw;
+}
+iframe {
+    width: 100%;
+}
+#locations {
+    display: flex;
+    flex-direction: row;
+    gap: 25vw;
+}
+#review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#review-form > input, #review-form > textarea {
+    width: 100%;
+    border: solid darkgray 3px;
+}
+#review-form > input, #review-form > textarea {
+    margin: 0;
+    padding: 2px;
+    padding-left: 10px;
+}
+#review-input-field {
+    height: 300px;
+}
+#review-form > #submit-review-button {
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: black;
+    border: none;
+}
+@media (max-width: 800px) {
+    #locations {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

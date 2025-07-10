@@ -1,0 +1,116 @@
+#shop-product {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20vw;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    gap: 2vw;
+}
+#shop-product > figure {
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    border: 5px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shop-product > figure > img {
+    width: auto;
+    height: 400px;
+    padding: 20px;
+}
+#shop-details > h3, #shop-details > h4  {
+    margin: 0;
+}
+#shop-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.breadcrumb-link:link {
+    color: darkgray;
+    text-underline-offset: 4px;
+}
+.breadcrumb-link:hover {
+    color: lightgray;
+}
+.breadcrumb-link:active {
+    color: #b8a16b;
+}
+.breadcrumb-link:visited {
+    color: darkgray;
+}
+#item-purchase-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+#item-purchase-buttons > p {
+    border: solid 1px black;
+    margin: 0;
+    width: 98px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item-purchase-buttons > button {
+    width: 280px;
+    height: 60px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+#item-shop-buttons > button {
+    background-color: white;
+}
+#item-shop-buttons > button:hover {
+    color: #b8a16b;
+}
+.underline-button {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+
+}
+details {
+    border-bottom: solid 1px darkgray;
+    line-height: 25px;
+}
+summary {
+    border-bottom: solid 1px lightgray;
+}
+.featured-section {
+    border-top: lightgray solid 1px;
+}
+
+@media (max-width:1100px) {
+    #shop-product {
+        margin: 0 10vw;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:800px) {
+    #shop-product {
+        margin-top: 110px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:600px) {
+    #shop-product > figure {
+        width: 90vw;
+    }
+}
+@media (max-width:500px) {
+    #shop-product {
+        margin-top: 160px;
+    }
+    #item-purchase-buttons {
+        flex-direction: column;
+        align-items: start;
+    }
+}

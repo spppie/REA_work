@@ -1,0 +1,55 @@
+body {
+	background-color: white;
+	font-size: 16px;
+	font-family: tahoma, verdana, sans-serif;
+}
+#container {
+	width: 1200px;
+	min-height: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: maroon;
+}
+main {
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+}
+section {
+	padding: 40px;
+	flex: 1;
+}
+figure>img {
+	width: 100%;
+}
+figure>figcaption {
+	color: grey;
+	text-align: center;
+	text-shadow: 4px 4px 8px lightgrey;
+}
+table, td {
+	/*border: 1px solid grey;*/
+	padding: 4px 8px;
+	/*border-collapse: collapse;*/
+}
+table {
+	margin: 40px 0;
+}
+td:first-child {
+	font-weight: bold;
+}
+.rating>span {
+	color: grey;
+}
+article>.rating {
+	font-size: 0.8em;
+}
+.rating>i {
+	font-size: 1.5em;
+}
+p.read-more {
+	font-style: italic;
+	font-size: 0.8em;
+}

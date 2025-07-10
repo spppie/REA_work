@@ -1,0 +1,51 @@
+.mobile-cart-button {
+    display: none;
+}
+#mobile-head-nav {
+    display: none;
+}
+button {
+    border: none;
+}
+.nav-section-2-mobile {
+    display: none;
+}
+nav {
+    grid-area: nav;
+    height: 70px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-section-1 {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#uomo-logo-header {
+    margin-right: 4.5%;
+}
+.nav-section-2 {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-button {
+    width: 255px;
+    height: 70px;
+    padding: 0;
+    background-color: #b8a16b;
+    color: white;
+    line-height: 22px;
+}
+.cart-button:hover {
+    border: solid 3px white;
+}
+.cart-button:active {
+    border: solid 3px #b8a16b;
+    background-color: white;
+    color: #b8a16b;
+}

@@ -1,0 +1,101 @@
+footer {
+    border-top: solid 3px lightgray;
+    margin-top: 50px;
+    padding-top: 75px;
+}
+#footer-discount-section {
+    text-align: center;
+}
+#footer-discount-section > h2 {
+    margin: 0;
+}
+form > input {
+    width: 547px;
+    height: 57px;
+    padding: 0;
+    border: 1px solid darkgray;
+    padding-left: 10px;
+}
+.update-button {
+    width: 150px;
+    height: 60px;
+    padding: 0;
+    background-color: #b8a16b;
+    color: white;
+    line-height: 22px;
+}
+.update-button:hover {
+    border: solid 3px lightgray;
+    color: lightgray;
+}
+.update-button:active {
+    border: solid 3px #b8a16b;
+    background-color: white;
+    color: #b8a16b;
+}
+#footer-background-wrapper {
+    background-image: url(../images/footer-background-1.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+#footer-sitemap-section {
+    height: 400px;
+    margin: 0 10vw;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-sitemap-section > article > h4 {
+    margin: 0;
+}
+#footer-social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.footer-section-links {
+    display: flex;
+    flex-direction: column;
+}
+.footer-link {
+    color: black;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: darkgray;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+}
+.footerlink:active {
+    color: #b8a16b;
+}
+.footer-section-spacing {
+    gap: 30px;
+}
+#footer-currency-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10vw;
+    border-top: solid 3px lightgray;
+}
+@media (max-width:1100px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    #footer-sitemap-section {
+        gap: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+    }
+}
+@media (max-width: 650px) {
+    form > input {
+        width: 300px;
+    }
+}

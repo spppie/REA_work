@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+	<head>
+		<meta charset="UTF-8">
+		<title>Samenvatting HTML</title>
+		<link rel="stylesheet" href="css/stylesheet.css">
+	</head>
+	<body>
+		<!-- Tabel met elementen -->
+		<table>
+			<thead>
+				<tr>
+					<th>Element</th>
+					<th>Uitleg</th>
+					<!-- Laat indien mogelijk ook de werking zien van het element. -->
+					<th>Demonstratie</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th colspan="3">Les 1 - Inleiding HTML</th>
+				</tr>
+				<tr>
+					<td>&lt;html&gt;</td>
+					<td>Hiermee kun je een HTML document aanmaken</td>
+					<td>n.v.t.</td>
+				</tr>
+				<tr>
+					<td>&lt;head&gt;</td>
+					<td>Hier plaats je alle informatie over de pagina</td>
+					<td>n.v.t.</td>
+				</tr>
+				<tr>
+					<td>&lt;body&gt;</td>
+					<td>Hier plaats je de feitelijke content van de pagina</td>
+					<td>n.v.t.</td>
+				</tr>
+				<tr>
+					<td>&lt;title&gt;</td>
+					<td>Wordt gebruikt om je pagina een titel te geven (voor het tabblad)</td>
+					<td>(zie tabblad)</td>
+				</tr>
+				<tr>
+					<td>&lt;p&gt;</td>
+					<td>Hiermee kun je een paragraaf aanmaken</td>
+					<td><p>Dit is een paragraaf.</p></td>
+				</tr>
+				<tr>
+					<td>&lt;br&gt;</td>
+					<td>Om een nieuwe regel te beginnen</td>
+					<td>Nieuwe regel<br>beginnen.</td>
+				</tr>
+				<tr>
+					<td>&lt;strong&gt;</td>
+					<td>Hiermee kun je tekst als belangrijk markeren</td>
+					<td><strong>tekst met strong</strong></td>
+				</tr>
+				<tr>
+					<td>&lt;em&gt;</td>
+					<td>Hiermee kun je tekst als benadrukt markeren</td>
+					<td><em>tekst met em</em>
+				</tr>				
+				<tr>
+					<th colspan="3">Les 2 - Teksten</th>
+				</tr>
+				<tr>
+					<td>&lt;meta&gt;</td>
+					<td>Hier plaats je metagegevens plaatsen (vooral voor SEO)</td>
+					<td>n.v.t.</td>
+				</tr>				
+				<tr>
+					<td>&lt;h1&gt; t/m &lt;h6&gt;</td>
+					<td>Met deze elementen kun je headings (kopjes) maken</td>
+					<td><h3>Dit is een h3-heading</h3></td>
+				</tr>
+				<tr>
+					<td>&lt;del&gt;</td>
+					<td>Streept tekst door</td>
+					<td><del>Tekst met del</del></td>
+				</tr>
+				<tr>
+					<td>&lt;ins&gt;</td>
+					<td>Onderstreept tekst</td>
+					<td><ins>Tekst met ins</ins></td>
+				</tr>
+				<tr>
+					<td>&lt;sup&gt;</td>
+					<td>Plaatst tekst in super script, boven</td>
+					<td><sup>Tekst</sup> met sup</td>
+				</tr>
+				<tr>
+					<td>&lt;sub&gt;</td>
+					<td>Plaatst tekst in sub script, onder</td>
+					<td><sub>Tekst</sub> met sub</td>
+				</tr>
+				<tr>
+					<td>&lt;q&gt;</td>
+					<td>Plaatst quotes om tekst</td>
+					<td><q>Tekst met q</q></td>
+				</tr>
+				<tr>
+					<td>&lt;blockquote&gt;</td>
+					<td>Plaats tekst ingesprongen en kan met bron aangegeven worden wie het heeft gezegd of waar het vandaan komt</td>
+					<td><blockquote>Een blockquote</blockquote></td>
+				</tr>
+				<tr>
+					<td>&lt;abbr&gt;</td>
+					<td>Geeft een afgekort word een title waar de betekenis staat</td>
+					<td>Tekst met een:<abbr title="abbreviation">abbr</abbr></td>
+				</tr>		
+				<tr>
+					<th colspan="3">Les 3 - Lijsten</th>
+				</tr>
+				<tr>
+					<td>&lt;ul&gt;</td>
+					<td>unsorted list, lijst zonder nummering</td>
+					<td>
+						<ul>
+							<li>voorbeeld</li>
+							<li>voorbeeld</li>
+						</ul>
+					</td>
+				</tr>	
+				<tr>
+					<td>&lt;li&gt;</td>
+					<td>lijst item</td>
+					<td>zie boven en onder</td>
+				</tr>	
+				<tr>
+					<td>&lt;ol&gt;</td>
+					<td>ordered list, lijst met nummering</td>
+					<td>
+						<ol>
+							<li>voorbeeld</li>
+							<li>voorbeeld 2</li>
+						</ol>
+					</td>
+				</tr>	
+				<tr>
+					<td>&lt;dl&gt;</td>
+					<td>description list</td>
+					<td>
+						<dl>
+							<dt>voorbeeld</dt>
+							<dd>beschrijving</dd>
+							<dt>voorbeeld 2</dt>
+							<dd>beschrijving 2</dd>
+						</dl>
+					</td>
+				</tr>	
+				<tr>
+					<td>&lt;dt&gt;</td>
+					<td>term/naam</td>
+					<td>zie boven</td>
+				</tr>	
+				<tr>
+					<td>&lt;dd&gt;</td>
+					<td>beschrijving</td>
+					<td>zie boven</td>
+				</tr>	
+				<tr>
+					<th colspan="3">Les 4 - hyperlinks</th>
+				</tr>
+				<tr>
+					<td>&lt;a&gt;</td>
+					<td>standaard link</td>
+					<td><a href="https://www.w3schools.com/tags/tag_a.asp">link</a></td>
+				</tr>
+				<tr>
+					<th colspan="3">Les 5 - afbeeldingen</th>
+				</tr>	
+				<tr>
+					<td>&lt;img&gt;</td>
+					<td>plaats een afbeelding</td>
+					<td><img src="images/l-logo.png" alt="L logo from deathnote"></td>
+				</tr>	
+				<tr>
+					<td>&lt;map&gt;</td>
+					<td>maakt een selectie map voor afbeeldingen</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;area&gt;</td>
+					<td>de specifieke selectie gebeiden voor &lt;map&gt;</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;object&gt;</td>
+					<td>voor svg afbeeldingen</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;svg&gt;</td>
+					<td>om een svg te maken in browser</td>
+					<td>voorbeeld onder</td>
+				</tr>	
+				<tr>
+					<td>&lt;rect&gt;</td>
+					<td>vierkant in svg</td>
+					<td>
+						<svg width="50" height="50" style="background-color: gray;">
+							<rect x="10" y="10" width="30" height="30" style="fill: blue;"/>
+						</svg>
+					</td>
+				</tr>	
+				<tr>
+					<td>&lt;circle&gt;</td>
+					<td>cirkel in svg</td>
+					<td>
+						<svg width="50" height="50" style="background-color: gray;">
+							<circle cx="25" cy="25" r="20" style="fill: blue;"/>
+						</svg>
+					</td>
+				</tr>	
+				<tr>
+					<td>&lt;ellipse&gt;</td>
+					<td>ellipse in svg</td>
+					<td>
+						<svg width="50" height="50" style="background-color: gray;">
+							<ellipse cx="25" cy="25" rx="20" ry="15" style="fill: blue;"/>
+						</svg>
+					</td>
+				</tr>	
+				<tr>
+					<td>&lt;line&gt;</td>
+					<td>lijn in svg</td>
+					<td>
+						<svg width="50" height="50" style="background-color: gray;">
+							<line x1="10" x2="40" y1="10" y2="40" style="stroke: blue; stroke-width:5px"/>
+						</svg>
+					</td>
+				</tr>	
+				<tr>
+					<td>&lt;polygon&gt;</td>
+					<td>polygon in svg</td>
+					<td>
+						<svg width="50" height="50" style="background-color: gray;">
+							<polygon points="10,10,15,40,35,40,40,10,30,25,20,25" style="fill: blue;"/>
+						</svg>
+					</td>
+				</tr>	
+				<tr>
+					<td>&lt;polyline&gt;</td>
+					<td>lijn met meerdere punten</td>
+					<td>
+						<svg width="50" height="50" style="background-color: gray;">
+							<polyline points="10,10,25,40,35,35" style="stroke: blue;stroke-width:5px;fill:none"/>
+						</svg>
+					</td>
+				</tr>	
+				<tr>
+					<th colspan="3">Les 6 - tabellen</th>
+				</tr>
+				<tr>
+					<td>&lt;table&gt;</td>
+					<td>basis voor tabel</td>
+					<td>voor alle tabel tags zie deze website</td>
+				</tr>	
+				<tr>
+					<td>&lt;tr&gt;</td>
+					<td>tabel rij</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;th&gt;</td>
+					<td>tabel titel</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;td&gt;</td>
+					<td>tabel data</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;caption&gt;</td>
+					<td>een titel of beschrijving van de info in de tabel</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;thead&gt;</td>
+					<td>hoofd van de tabel</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;tbody&gt;</td>
+					<td>midden van tabel</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th colspan="3">Les 7 - metagegevens</th>
+				</tr>	
+				<tr>
+					<td>&lt;meta&gt;</td>
+					<td>meta tag voor meta informatie veel verschillende opties</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;link&gt;</td>
+					<td>relatie tussen bestand en externe bron</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;script&gt;</td>
+					<td>linkt javascript aan html document</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<th colspan="3">Les 8 - formulieren</th>
+				</tr>	
+				<tr>
+					<td>&lt;form&gt;</td>
+					<td>basis voor formulier</td>
+					<td>zie onder</td>
+				</tr>	
+				<tr>
+					<td>&lt;label&gt;</td>
+					<td>geeft naam aan input methode</td>
+					<td>zie onder</td>
+				</tr>	
+				<tr>
+					<td>&lt;input&gt;</td>
+					<td>input voor veel opties</td>
+					<td>
+						<form action="index.html" method="post">
+							<label for="naam">naam:</label>
+							<input type="text" name="naam" id="naam" placeholder="sem">
+						</form>
+					</td>
+				</tr>	
+				<tr>
+					<td>&lt;datalist&gt;</td>
+					<td>voor een dropdown menu</td>
+					<td>
+						<label for="vblijst">voorbeeld lijst:</label>
+						<input list="lijst" name="vblijst" id="vblijst">
+						<datalist id="lijst">
+							<option value="waarde1"></option>
+							<option value="waarde2"></option>
+						</datalist>
+					</td>
+				</tr>	
+				<tr>
+					<td>&lt;fieldset&gt;</td>
+					<td>plaats een verdeling in een formulier</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;legend&gt;</td>
+					<td>geeft de fieldset een naam</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;optgroup&gt;</td>
+					<td>voor select, om een lijst te verdelen in stukken</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;select&gt;</td>
+					<td>dropdown menu selectie</td>
+					<td>
+						<label for="opties">kies optie:</label>
+						<select name="opties" id="opties">
+						<option value="optie1">optie 1</option>
+						<option value="optie2">optie 2</option>
+						</select>
+					</td>
+				</tr>		
+				<tr>
+					<th colspan="3">Les 9 - media</th>
+				</tr>
+				<tr>
+					<td>&lt;audio&gt;</td>
+					<td>om audio aftespelen of plaatsen op de site</td>
+					<td>
+						<audio src="audio/e1m1.wav" controls></audio>
+					</td>
+				</tr>	
+				<tr>
+					<td>&lt;video&gt;</td>
+					<td>om video aftespelen of te plaatsen</td>
+					<td>
+						<video src="video/ladder.mp4" controls width="200" height="150"></video>
+					</td>
+				</tr>	
+				<tr>
+					<td>&lt;iframe&gt;</td>
+					<td>een frame op de site die van bron verandert kan worden</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;canvas&gt;</td>
+					<td>een canvas waar via javascript op gewerkt kan worden</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<th colspan="3">Les 10 - divisies</th>
+				</tr>
+				<tr>
+					<td>&lt;header&gt;</td>
+					<td>hoofd van de site</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;section&gt;</td>
+					<td>een onafhankelijke sectie van de site</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;article&gt;</td>
+					<td>delen die met elkaar een relatie hebben, kan binnen sectie of andersom</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;footer&gt;</td>
+					<td>de voet van de site</td>
+					<td></td>
+				</tr>	
+				<tr>
+					<td>&lt;aside&gt;</td>
+					<td>extra info die niet nodig is voor de sections of content</td>
+					<td></td>
+				</tr>	
+			</tbody>
+		</table>
+	</body>
+</html>

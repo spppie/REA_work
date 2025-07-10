@@ -1,0 +1,61 @@
+h1, #about-us-section {
+    margin-left: 20vw;
+}
+#about-us-section {
+    width: 60vw;
+}
+figure {
+    margin: 0 auto;
+}
+figure, figure > img {
+    width: 80vw;
+    height: 50vh;
+}
+figure > img {
+    object-fit: cover;
+}
+#about-us-subsection {
+    display: flex;
+    gap: 15vw;
+}
+.about-us-section-image {
+    object-fit: cover;
+    width: 60vw;
+    height: 80vh;
+}
+#company-section {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    margin-top: 50px;
+}
+#customer-promises {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 1vw;
+}
+#delivery, #customer-support, #money-back {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.customer-promises-sub > p {
+    margin: 4px;
+}
+@media (max-width: 1100px) {
+    #company-section {
+        flex-direction: column;
+    }
+    #customer-promises {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+}
+@media (max-width: 600px) {
+    #about-us-subsection {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

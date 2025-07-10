@@ -1,0 +1,85 @@
+.wine-gallery-product > h3, .wine-gallery-product > h4 {
+    margin: 5px;
+}
+.wine-gallery-product > p {
+    margin-top: 30px;
+}
+.wine-gallery-product {
+    width: 320px;
+}
+.featured-section {
+    text-align: center;
+    width: 100%;
+}
+.featured-section > h2 {
+    margin: 0;
+    margin-top: 100px;
+}
+.featured-section > p {
+    margin: 0;
+    margin-bottom: 60px;
+}
+.wine-gallery-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.wine-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    width: 90%;
+}
+.product-hover {
+    display: none;
+    position: absolute;
+}
+.product-hover-icon:hover {
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.gallery-images {
+    height: 320px;
+    width: auto;
+}
+.wine-gallery-product:hover .product-hover {
+    display: block;
+}
+.product-hover-icons {
+    transform: translateX(250px) translateY(-40px);
+}
+.product-hover-icon {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border: 2px solid darkgray;
+    margin: 5px;
+}
+.product-hover-icon > i {
+    margin: 14.5px auto;
+}
+.add-to-cart-hover {
+    width: 330px;
+    height: 50px;
+    background-color: #bba06b;
+    color: white;
+    transform: translateX(-5px) translateY(-40px);
+}
+.add-to-cart-hover:hover {
+    border: solid 3px lightgray;
+}
+.add-to-cart-hover:active {
+    background-color: white;
+    border: solid 3px #bba06b;
+    color: #bba06b;
+}
+.rating-points {
+    width: 80px;
+    height: auto;
+}
+.gallery-arrow {margin: 20px;}

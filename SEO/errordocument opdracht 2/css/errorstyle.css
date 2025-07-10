@@ -1,0 +1,14 @@
+body {
+	color: black;
+	font-size: 14px;
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #BBBBBB;
+}
+#container {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+figure {
+    margin: 0 auto;
+}
