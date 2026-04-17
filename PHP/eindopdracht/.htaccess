@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^(users)\/(\S+)?\/?$ index.php?page=$1\&username=$2
+RewriteRule ^(home)\/(\S+)?\/?$ index.php?page=$1\&postid=$2
+RewriteRule ^(create-post)\/(\S+)?\/?$ index.php?page=$1\&postid=$2
+RewriteRule ^([\w\-]+)\/?$ index.php?page=$1

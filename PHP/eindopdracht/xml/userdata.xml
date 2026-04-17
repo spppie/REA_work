@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html [<!ENTITY nbsp "&#160;">]>
+<!-- user emails zijn temporary -->
+<users>
+    <user id="698b2c5df0d0c">
+        <username>admin</username>
+        <password>root</password>
+        <email>sem.vssr@gmail.com</email>
+        <receiveEmail>false</receiveEmail>
+        <img>images/profile-images/admin-profile-image.jpg</img>
+    </user>
+    <user id="698b2c8513139">
+        <username>spoopie</username>
+        <password>sem</password>
+        <email>s.visser@rcnheliomare.nl</email>
+        <img>images/profile-images/spoopie-profile-image.jpg</img>
+    </user>
+    <user id="698b2c8c123a6">
+        <username>admiralGC</username>
+        <password>hidde</password>
+        <email>h.aalders@rcnheliomare.nl</email>
+        <img>images/profile-images/admiralgc-profile-image.png</img>
+    </user>
+    <user id="698b2c92185e1">
+        <username>tera</username>
+        <password>daan</password>
+        <email>d.nguyen@rcnheliomare.nl</email>
+        <img>images/profile-images/tera-profile-image.png</img>
+    </user>
+    <user id="698b35fe2a510">
+        <username>dorusje123</username>
+        <password>dorus</password>
+        <email>d.lute@rcnheliomare.nl</email>
+        <img>images/profile-images/placeholder1.png</img>
+    </user>
+</users>

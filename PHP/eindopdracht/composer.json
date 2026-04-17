@@ -1,0 +1,8 @@
+{
+    "autoload": {
+		"classmap": ["classes"]
+	},
+    "require": {
+        "symfony/mailer": "^7.4"
+    }
+}
